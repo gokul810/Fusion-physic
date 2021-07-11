@@ -6,7 +6,7 @@ background_colour = (0, 0, 0)
 (width, height) = (500, 500)
 drag = 0.999
 elasticity = 0.75
-gravity = (math.pi, 0.002)
+gravity = (math.pi, 0.003)
 
 def addVectors((angle1, length1), (angle2, length2)):
     x  = math.sin(angle1) * length1 + math.sin(angle2) * length2
